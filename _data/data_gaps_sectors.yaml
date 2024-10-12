@@ -1,0 +1,22 @@
+---
+recoCHzI27qe9Xzd9:
+  airtable_id: recoCHzI27qe9Xzd9
+  name: Energy
+  icon: "\U0001F50C"
+  associated_datasets:
+  - recRqVr5AVjnpiPJh
+rec8AGIw134PanOsZ:
+  airtable_id: rec8AGIw134PanOsZ
+  associated_use_cases:
+  - rec9cpZ6HbUZ2slIP
+  name: Legal System
+  icon: "\U0001F469‍⚖️"
+  associated_datasets:
+  - recPz0swayVMo9sTP
+recUD3T8Vxf1E7wVs:
+  airtable_id: recUD3T8Vxf1E7wVs
+  associated_use_cases:
+  - rec9cpZ6HbUZ2slIP
+  - recAf0fpZFhEiJd1S
+  name: Public Policy
+  icon: "\U0001F465"

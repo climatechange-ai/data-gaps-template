@@ -1,0 +1,97 @@
+---
+recdJc6zAwyZVdhaf:
+  airtable_id: recdJc6zAwyZVdhaf
+  name: 'M: Misc/Other'
+  description: Challenges or gaps that do not fit into the other categories
+  code: 'M:'
+recqxj5X3VgdcEOjW:
+  airtable_id: recqxj5X3VgdcEOjW
+  name: 'O1: Obtainability > Findability'
+  description: Dataset is not easy to find for humans and/or computers
+  code: O1
+recMT1q0iTuvMXXtg:
+  airtable_id: recMT1q0iTuvMXXtg
+  name: 'O2: Obtainability > Accessibility'
+  description: Dataset is difficult to access
+  code: O2
+recV8XaU0jkHWiEpm:
+  airtable_id: recV8XaU0jkHWiEpm
+  name: 'R1: Reliability > Quality'
+  description: Data quality needs to be improved, validated, and/or verified
+  code: R1
+recvgPmtaGbPjoMA4:
+  airtable_id: recvgPmtaGbPjoMA4
+  name: 'R2: Reliability > Provenance'
+  description: Data integrity needs to be validated/verified due to provenance
+  code: R2
+rec40WCq5huWtH3WP:
+  airtable_id: rec40WCq5huWtH3WP
+  name: 'S1: Sufficiency > Insufficient Volume'
+  where_it's_used:
+  - recUBfs9lj5RO0STf
+  description: Data volume is insufficient for intended tasks
+  code: S1
+recxBzgmu0DRSxcdU:
+  airtable_id: recxBzgmu0DRSxcdU
+  name: 'S2: Sufficiency > Coverage'
+  description: Data coverage is limited - e.g., geographically, temporally, or demographically
+  code: S2
+recPYUX7GHErBan4o:
+  airtable_id: recPYUX7GHErBan4o
+  name: 'S3: Sufficiency > Granularity'
+  description: Data is lacking in granularity/resolution
+  code: S3
+recD0dJn1gMyJzf6u:
+  airtable_id: recD0dJn1gMyJzf6u
+  name: 'S4: Sufficiency > Timeliness'
+  description: Data is not released promptly or is otherwise out of date
+  code: S4
+rec2i9Vx632cAkSsT:
+  airtable_id: rec2i9Vx632cAkSsT
+  name: 'S5: Sufficiency > Proxy'
+  description: Data needs to be inferred or simulated
+  code: S5
+recxQ3Tw5QCn4d1u9:
+  airtable_id: recxQ3Tw5QCn4d1u9
+  name: 'S6: Sufficiency > Missing Components'
+  description: Dataset is missing important variables or types of information
+  code: S6
+recfsueFTcexrqVUr:
+  airtable_id: recfsueFTcexrqVUr
+  name: 'U1: Usability > Structure'
+  description: Dataset is not machine-readable, well-formatted, and/or interoperable
+  code: U1
+recQ0jwebST7Ath7i:
+  airtable_id: recQ0jwebST7Ath7i
+  name: 'U2: Usability > Aggregation'
+  where_it's_used:
+  - recDDM1tP9umG2lL0
+  description: Data is scattered and requires consolidation
+  code: U2
+recnC6aMWYIxE5R71:
+  airtable_id: recnC6aMWYIxE5R71
+  name: 'U3: Usability > Usage Rights'
+  description: Data usage rights are unclear or restrictive
+  code: U3
+recpchiTRT0Odbieu:
+  airtable_id: recpchiTRT0Odbieu
+  name: 'U4: Usability > Documentation'
+  description: Documentation on data usage requires improvement
+  code: U4
+recHc59Uu2Z44jIpg:
+  airtable_id: recHc59Uu2Z44jIpg
+  name: 'U5: Usability > Pre-processing'
+  description: Data needs to be processed or cleaned prior to analysis
+  code: U5
+recmfAAPdqVpt0p4y:
+  airtable_id: recmfAAPdqVpt0p4y
+  name: 'U6: Usability > Large Volume'
+  description: Usability is impeded by large data volume
+  code: U6
+recV4IXysogbmWof9:
+  airtable_id: recV4IXysogbmWof9
+  name: 'W: Wish'
+  where_it's_used:
+  - recDYKODOz00nTHbs
+  description: Dataset does not exist
+  code: 'W:'

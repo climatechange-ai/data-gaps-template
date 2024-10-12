@@ -1,0 +1,37 @@
+---
+recRqVr5AVjnpiPJh:
+  airtable_id: recRqVr5AVjnpiPJh
+  modalities:
+  - Timeseries
+  - Tabular
+  - Text
+  name: Boiler Data
+  short_introduction: This is a short introduction.
+  publishable: true
+  sectors:
+  - recoCHzI27qe9Xzd9
+  existence: Wish
+  introduction: "<p>This is a <strong><em>longer description.</em></strong></p>"
+  dataset_url: https://www.centreforpublicdata.org/boiler-data
+  data_gaps:
+  - recwnytP5YTfbdGcD
+  id: boiler-data
+recPz0swayVMo9sTP:
+  airtable_id: recPz0swayVMo9sTP
+  modalities:
+  - Tabular
+  name: Unrepresented Defendants
+  short_introduction: This is a short introduction to an incomplete dataset of unrepresented
+    defendants.
+  publishable: true
+  sectors:
+  - rec8AGIw134PanOsZ
+  existence: Existing
+  introduction: |-
+    <p>This is a longer introduction to the problem of unrepresented defendants.</p>
+
+    <p>This can have <strong><em>formatting</em></strong> or <a target="_blank" href="https://www.centreforpublicdata.org/">links</a>.</p>
+  dataset_url: https://www.centreforpublicdata.org/blog/understanding-the-unrepresented-the-case-for-better-data-on-legal-representation-in-courts
+  data_gaps:
+  - recNvlKAHB96agZ50
+  id: unrepresented-defendants

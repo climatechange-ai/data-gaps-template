@@ -1,0 +1,72 @@
+{% assign summary = data_gap.summary | strip %}
+
+{% if summary == "" %}
+  {{ include.fallback_summary }}
+{% else %}
+  {{ summary }}
+{% endif %}
+
+<button class='button is-info view-data-gap' data-gap='{{ data_gap.id }}'>
+  More details
+</button>
+
+<a class='button is-info' href='https://airtable.com/appY2hJvi0WWoFOPx/pagBcFCIqhKBjQLW6/form?prefill_Data+Gap={{ data_gap.id }}' target='_blank'>
+  Give feedback
+</a>
+
+<div class='modal' data-gap='{{ data_gap.id }}'>
+  <div class='modal-background'></div>
+  <div class='modal-card'>
+    <header class='modal-card-head'>
+      <p class='modal-card-title' style='margin: 0'>
+        {% if include.first == "dataset" %}
+          <a class='details-link' href='#{{ dataset.id }}' data-to='by-dataset'>{{ dataset.name }}</a>
+          &nbsp;
+          &gt;
+          &nbsp;
+          <a class='details-link' href='#{{ use_case.id }}' data-to='by-use-case'>{{ use_case.name }}</a>
+        {% else %}
+          <a class='details-link' href='#{{ use_case.id }}' data-to='by-use-case'>{{ use_case.name }}</a>
+          &nbsp;
+          &gt;
+          &nbsp;
+          <a class='details-link' href='#{{ dataset.id }}' data-to='by-dataset'>{{ dataset.name }}</a>
+        {% endif %}
+      </p>
+      <button class="modal-close delete" aria-label="close"></button>
+    </header>
+    <section class="modal-card-body">
+      {% if summary == "" %}
+        {{ include.fallback_summary }}
+      {% else %}
+        {{ summary }}
+      {% endif %}
+
+      {% if data_gap.data_gap_details.size > 0 %}
+        <table>
+          <thead><tr><th>Data Gap Type</th><th>Data Gap Details</th></tr></thead>
+          <tbody>
+            {% for details_id in data_gap.data_gap_details %}
+              {% assign details = site.data.data_gaps_details[details_id] %}
+              {% assign type_id = details.type | first %}
+              {% assign gap_type = site.data.data_gaps_types[type_id] %}
+              <tr>
+                <td style='white-space: nowrap' class='gap-type' title="{{ gap_type.description || '' }}">{{ gap_type.name }}</td>
+                <td>{{ details.details }}</td>
+              </tr>
+            {% endfor %}
+          </tbody>
+        </table>
+      {% endif %}
+    </section>
+    <footer class='modal-card-foot'>
+      <div class="buttons">
+        <a class='button is-info' href='https://airtable.com/app9WihmExVH7ufg8/pagM6GazMOJm2FcnH/form?prefill_Data+Gap={{ data_gap.id }}' target='_blank'>
+          Give feedback
+        </a>
+
+        <button class='button modal-close-button'>Back</button>
+      </div>
+    </footer>
+  </div>
+</div>

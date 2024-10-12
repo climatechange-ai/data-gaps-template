@@ -1,4 +1,4 @@
-# Data Gaps Template
+# Data Gaps Template ([demo](https://climatechange-ai.github.io/data-gaps-template/))
 
 This is a templated version of the Climate Change AI [data gaps page](https://www.climatechange.ai/dev/datagaps), meant to be extensible by other groups to other application areas.
 

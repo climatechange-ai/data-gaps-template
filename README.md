@@ -4,10 +4,10 @@ This is a templated version of the Climate Change AI [data gaps page](https://ww
 
 ## Adaptation Instructions
 
-The data gaps visualization is based on Airtable data. For this repository, it's based on [this Airtable base](https://airtable.com/appY2hJvi0WWoFOPx).
+The data gaps visualization is based on Airtable data. For this repository, it's based on [this Airtable base](https://airtable.com/appY2hJvi0WWoFOPx/shremrztqdMIGGLkC).
 
 To adapt it to your own use-case, you just need to:
-- copy [the template base](https://airtable.com/appY2hJvi0WWoFOPx)
+- copy [the template base](https://airtable.com/appY2hJvi0WWoFOPx/shremrztqdMIGGLkC)
 - update [`_config.yml`](./_config.yml) with the IDs of your new base and associated forms
 - create a personal access token for your new base and update `.env` with `AIRTABLE_ACCESS_TOKEN=<token>`
 - make changes to data in Airtable
